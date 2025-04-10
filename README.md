@@ -1,9 +1,9 @@
 # OptimAi Extension BOT
 
-- Register Here : [OptimAi Dashboard](https://node.optimai.network/register?ref=C93BB492)
+- Register Here : [OptimAi Dashboard](https://node.optimai.network/register?ref=A8E9B811)
 
 ## Features
-
+  - Auto Fetch user_id and device_id
   - Auto Get Account Information
   - Auto Run With [Monosans](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/all.txt) Proxy - Choose 1
   - Auto Run With Private Proxy - Choose 2
@@ -56,6 +56,13 @@
   protocol://ip:port
   protocol://user:pass@ip:port
   ```
+### How to Get user_id & device_id
+
+1. Create tokens.txt, per line for per token.
+2. Run    ```python
+   python get_device.py
+   ```
+3. Then will write to '''test'''' file
 
 ### How to Get Register & Uptime Payload
 
